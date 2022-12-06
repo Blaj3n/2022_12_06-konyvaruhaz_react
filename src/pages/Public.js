@@ -78,9 +78,6 @@ function Public() {
           );
         })}
       </article>
-      <footer>
-        <p>saját név</p>
-      </footer>
     </div>
   );
 }

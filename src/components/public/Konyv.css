@@ -1,6 +1,7 @@
 .konyv {
     border: 1px solid gray;
-    padding: 10px
+    padding: 10px;
+    height: 20vh;
 }
 
 .konyv>h3 {
