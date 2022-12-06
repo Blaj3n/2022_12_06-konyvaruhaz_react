@@ -56,10 +56,10 @@ function Public() {
         <table class="table table-striped">
           <thead>
             <tr>
-              <th>Szerző</th>
-              <th>Cím</th>
-              <th>Ár</th>
-              <th>Db</th>
+              <th className="cimsor">Szerző</th>
+              <th className="cimsor">Cím</th>
+              <th className="cimsor">Ár</th>
+              <th className="cimsor">Db</th>
             </tr>
           </thead>
           <tbody>
@@ -71,7 +71,7 @@ function Public() {
           </tbody>
         </table>
       </section>
-      <article>
+      <article className="publickonyv">
         {konyvTomb.map((konyv, index) => {
           return (
             <Konyv konyvObj={konyv} key={index} kosarKezeles={kosarKezeles} />

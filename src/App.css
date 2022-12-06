@@ -16,11 +16,16 @@
 
 article {
   min-height: 50vh;
+}
+.publickonyv{
   display:flex;
   flex-wrap: wrap;
   flex-grow: 3;
   gap: 20px;
   justify-content: center;
+}
+.cimsor{
+  text-align: center;
 }
 footer{
   min-height: 10vh;
