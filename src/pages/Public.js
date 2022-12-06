@@ -1,8 +1,8 @@
+import "../App.css";
+import Konyv from "../components/public/Konyv";
 import { useState } from "react";
-import "./App.css";
-import Konyv from "./Konyv";
-import Kosar from "./Kosar";
-import KosarModell from "./modell/kosarModell";
+import Kosar from "../components/public/Kosar";
+import KosarModell from "../modell/kosarModell";
 
 const konyvTomb = [
   {
@@ -50,9 +50,6 @@ function Public() {
   }
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Könyváruház</h1>
-      </header>
       <section>
         <p>A Könyvek darabszáma: {db}</p>
         <p>A Könyvek összára: {osszAr}</p>
